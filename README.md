@@ -8,8 +8,8 @@ Bash script to extract audio stream from all video files in the folder using ffm
 
 ## How to run the script
 Copy this script into the folder you need to perform conversion, and then run 
-`chmod +x convert_file.sh` (one time only)
-`./convert_file.sh arg1 arg2`
+- `chmod +x convert_file.sh` (one time only)
+- `./convert_file.sh arg1 arg2`
 
 ## Example:
 1. To convert all files in the folder with mp4 extension to mp3 use:

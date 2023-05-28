@@ -1,5 +1,5 @@
 # extract_audio
-Bash script to convert video files to mp3 format using ffmpeg
+Bash script to extract audio stream from all video files in the folder using ffmpeg
 
 ## Features:
 - Renames files to replace spaces in the filename with underscroll.

@@ -2,7 +2,7 @@
 Bash script to extract audio stream from all video files in the folder using ffmpeg
 
 ## Features:
-- Renames files to replace spaces in the filename with underscroll.
+- Output filename replaces spaces in the input filename with underscroll.
 - Uses ffmpeg to extract audio stream from video formats like mp4, webm and mkv. (these 3 formats tested)
 - Audio file can be in written in any audio format. (tested with mp3 only)
 

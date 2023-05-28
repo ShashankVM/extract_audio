@@ -1,5 +1,5 @@
 # extract_audio
-Bash script to extract audio stream from all video files in the folder using ffmpeg
+Bash script to extract audio stream from all video files in the folder using FFmpeg
 
 ## Features:
 - Leverages ffmpeg to extract audio stream from video formats like mp4, webm and mkv. (these 3 formats tested)

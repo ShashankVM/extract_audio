@@ -3,6 +3,7 @@ Bash script to extract audio stream from all video files in the folder using FFm
 
 ## Dependencies
 1. ffmpeg 4.4.2
+2. GNU parallel 20210822
 
 ## Features:
 - Leverages ffmpeg to extract audio stream from video formats like mp4, webm and mkv. (these 3 formats tested)
@@ -41,4 +42,4 @@ To run 9 jobs sequentially it takes 9 runs.
 Speedup = 9/3 = 3
 
 ## Theoretical vs Practical
-Error rate = 3 - 2.372 / 3 = 20.9%
+Error rate = 3 - 2.372 / 3 = 20.9% variation from ideal

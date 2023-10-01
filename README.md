@@ -30,19 +30,9 @@ Copy this script into the folder you need to perform conversion, and then run
 | user      | 0m30.313s | 0m20.698s  | 1.46   |
 | sys       | 0m1.141   | 0m2.711s   | 0.42   |
 
-## Theoretical speedup calculation:
-Total time taken for serial implementation = 24.171s
-
-Average time per file with serial implementation= 24.171s/9 = 2.68s
-
-Number of Processors = 4
-
-
-To run 9 jobs, it takes 3 runs for a machine with 4 processors.
-
-To run 9 jobs sequentially it takes 9 runs.
-
-Speedup = 9/3 = 3
+## Theoretical maximum speedup calculation:
+Maximum theoretical speedup = Number of processors
 
 ## Theoretical vs Practical
-Error rate = 3 - 2.372 / 3 = 20.9% variation from ideal
+Deviation from ideal = 4 - 2.4 / 4 = 40%
+This means the practical speedup came to approximately 60% of the maximum speedup

@@ -34,7 +34,7 @@ Copy this script into the folder you need to perform conversion, and then run
 Maximum theoretical speedup = Number of processors
 
 ## Comments on theoretical speedup vs practical speedup
-Deviation from ideal = 4 - 2.4 / 4 = 40%
+Deviation from ideal = (4 - 2.4) / 4 = 40%
 
 This means the practical speedup came to approximately 60% of the maximum speedup.
 

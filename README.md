@@ -1,5 +1,5 @@
 # extract_audio
-Bash script to extract audio stream from all video files in the folder using FFmpeg
+Command line utility to extract audio from all video files in parallel.
 
 ## Dependencies
 1. ffmpeg 4.4.2

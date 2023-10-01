@@ -11,9 +11,11 @@ Command line tool to extract audio from all video files in parallel.
 - Supports AAC (Advanced Audio Coding Standard) and all codecs supported by FFmpeg.
 
 ## How to run the script
-Copy this script into the folder you need to perform conversion, and then run 
+A. Copy this script into the folder you need to perform conversion, and then run 
 - `chmod +x convert_file.sh` (one time only)
 - `./convert_file.sh arg1 arg2`
+
+B. Alternatively, you can add the script to your path such as (~/.local/bin in Ubuntu) and run it from anywhere.
 
 ## Example
 1. To convert all files in the folder with mp4 extension to aac use:

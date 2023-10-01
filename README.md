@@ -32,11 +32,14 @@ Copy this script into the folder you need to perform conversion, and then run
 
 ## Theoretical speedup calculation:
 Total time taken for serial implementation = 24.171s
+
 Average time per file with serial implementation= 24.171s/9 = 2.68s
+
 Number of Processors = 4
 
 
 To run 9 jobs, it takes 3 runs for a machine with 4 processors.
+
 To run 9 jobs sequentially it takes 9 runs.
 
 Speedup = 9/3 = 3

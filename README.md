@@ -6,10 +6,8 @@ Command line utility to extract audio from all video files in parallel.
 2. GNU parallel 20210822
 
 ## Features
-- Supports Parallel Processing
-- Leverages FFmpeg to extract audio stream from video formats.
 - Output filename has all spaces in the input filename replaced with underscroll for ease of use in Linux.
-- Supports Parallel Processing using GNU Paralle
+- Supports Parallel Processing using GNU Parallel.
 - Supports AAC (Advanced Audio Coding Standard) and all codecs supported by FFmpeg.
 
 ## How to run the script

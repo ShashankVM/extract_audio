@@ -33,7 +33,13 @@ Copy this script into the folder you need to perform conversion, and then run
 ## Theoretical maximum speedup calculation:
 Maximum theoretical speedup = Number of processors
 
-## Theoretical vs Practical
+## Comments on theoretical speedup vs practical speedup
 Deviation from ideal = 4 - 2.4 / 4 = 40%
 
 This means the practical speedup came to approximately 60% of the maximum speedup.
+
+This deviation is due to running it on a feature rich, Graphical Interface Operating System, consistent with the average usecase.
+
+Running it on a headless Linux based server might give better performance.
+
+The speedup of 2.4 achieved makes a very good case for the use of GNU Parallel.

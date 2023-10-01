@@ -9,6 +9,8 @@ Bash script to extract audio stream from all video files in the folder using FFm
 - Leverages ffmpeg to extract audio stream from video formats like mp4, webm and mkv. 
 - Audio file can be in written in any audio format. 
 - Output filename has all spaces in the input filename replaced with underscroll for ease of use in Linux.
+- Supports AAC (Advanced Audio Coding Standard)
+- Supports Parallel Processing
 
 ## How to run the script
 Copy this script into the folder you need to perform conversion, and then run 
@@ -18,10 +20,6 @@ Copy this script into the folder you need to perform conversion, and then run
 ## Example:
 1. To convert all files in the folder with mp4 extension to aac use:
    `./convert_file.sh mp4 aac`
-
-## Features:
-1. Supports AAC (Advanced Audio Coding Standard)
-2. Supports Parallel Processing.
 
 ## Performance improvement numbers for a sample size of 9 different MP4 videos to be converted to AAC sound files on a 4 core processor
 | Time type | Serial   | Parallel    |  Speedup (Serial time / Parallel time) |

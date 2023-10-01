@@ -23,7 +23,7 @@ Copy this script into the folder you need to perform conversion, and then run
 1. Supports AAC (Advanced Audio Coding Standard)
 2. Supports Parallel Processing.
 
-## Performance improvement numbers for a sample size of 9 MP4 videos to be converted to AAC sound files on a 4 core processor
+## Performance improvement numbers for a sample size of 9 different MP4 videos to be converted to AAC sound files on a 4 core processor
 | Time type | Serial   | Parallel    |  Speedup (Serial time / Parallel time) |
 | --------- | ---------|-------------|----------------------------------------|
 | real      | 0m20.106s | 0m8.476s   | 2.372  |
@@ -38,8 +38,6 @@ Deviation from ideal = 4 - 2.4 / 4 = 40%
 
 This means the practical speedup came to approximately 60% of the maximum speedup.
 
-This deviation is due to running it on a feature rich, Graphical Interface Operating System, consistent with the average usecase.
+This deviation is due to running it on a feature rich, Graphical Interface Operating System, consistent with the average usecase. This deviation can also be due to the fact that not all videos take the same time to convert. If all videos took the same time to convert, one might get a better speedup. The aim here is to get realistic numbers that a user can expect, not to paint a rosy picture.
 
-Running it on a headless Linux based server might give better performance.
-
-The speedup of 2.4 achieved makes a very good case for the use of GNU Parallel.
+In conclusion, the speedup of approximately 2.4 achieved makes a very good case for the use of GNU Parallel. Parallel implementation takes less than half the time that a serial implementation would take.

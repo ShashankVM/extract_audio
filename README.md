@@ -23,7 +23,7 @@ Copy this script into the folder you need to perform conversion, and then run
 1. Supports AAC (Advanced Audio Coding Standard)
 2. Supports Parallel Processing.
 
-## Performance improvement numbers
+## Performance improvement numbers for a sample size of 9
 | Time type | Serial   | Parallel    |  Speedup (Serial time / Parallel time) |
 | --------- | ---------|-------------|----------------------------------------|
 | real      | 0m20.106s | 0m8.476s   | 2.372  |

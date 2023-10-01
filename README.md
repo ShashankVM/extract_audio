@@ -1,5 +1,5 @@
 # extract_audio
-Command line tool to extract audio from all video files in current directory in parallel.
+Command line tool to extract audio from all video files in current directory, in parallel.
 
 ## Dependencies
 1. ffmpeg 4.4.2

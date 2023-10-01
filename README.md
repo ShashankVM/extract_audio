@@ -35,4 +35,5 @@ Maximum theoretical speedup = Number of processors
 
 ## Theoretical vs Practical
 Deviation from ideal = 4 - 2.4 / 4 = 40%
-This means the practical speedup came to approximately 60% of the maximum speedup
+
+This means the practical speedup came to approximately 60% of the maximum speedup.
